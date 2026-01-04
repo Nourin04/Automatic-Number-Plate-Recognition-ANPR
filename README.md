@@ -75,10 +75,8 @@ The recognized license plate number is displayed on the original image. A boundi
 ---
 
 ## Output
+<img width="592" height="394" alt="image" src="https://github.com/user-attachments/assets/37d2cd1f-94af-40e0-8d10-48757275cdd8" />
 
-* Cropped license plate image
-* Recognized license plate number
-* Original image annotated with bounding box and detected text
 
 ---
 

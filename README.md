@@ -34,46 +34,6 @@ Each stage improves the accuracy and reliability of the final recognition output
 
 ---
 
-## Methodology
-
-### Image Preprocessing
-
-The input image is first converted to grayscale to reduce complexity and remove unnecessary color information. This improves processing speed and prepares the image for effective edge detection.
-
-Noise is reduced using edge-preserving filtering to retain important structural details, such as the boundaries of the license plate.
-
----
-
-### Edge Detection
-
-Edge detection is applied to highlight strong intensity changes in the image. These edges help identify rectangular structures that resemble license plates. This step is crucial for accurate contour detection.
-
----
-
-### License Plate Localization
-
-Contours are extracted from the edged image and sorted based on their area. The system assumes that the license plate is among the largest rectangular contours in the image. A contour with four corners is selected as the license plate candidate.
-
----
-
-### Masking and Cropping
-
-Once the license plate contour is identified, a mask is created to isolate the region of interest. The masked region is then cropped to obtain a clean image of the license plate. This reduces background noise and improves OCR accuracy.
-
----
-
-### Optical Character Recognition
-
-The cropped license plate image is passed to an OCR engine, which detects and recognizes the alphanumeric characters present on the plate. The OCR module returns the detected text along with a confidence score indicating recognition reliability.
-
----
-
-### Result Visualization
-
-The recognized license plate number is displayed on the original image. A bounding box is drawn around the detected plate to visually confirm correct localization and recognition.
-
----
-
 ## Output
 <img width="1213" height="584" alt="image" src="https://github.com/user-attachments/assets/8656246f-6d22-4d5d-97f3-6db328089e99" />
 <img width="1205" height="587" alt="image" src="https://github.com/user-attachments/assets/1270a014-989c-44fd-990c-726086a02e65" />

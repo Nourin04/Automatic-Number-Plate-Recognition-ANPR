@@ -75,7 +75,8 @@ The recognized license plate number is displayed on the original image. A boundi
 ---
 
 ## Output
-<img width="592" height="394" alt="image" src="https://github.com/user-attachments/assets/37d2cd1f-94af-40e0-8d10-48757275cdd8" />
+<img width="1213" height="584" alt="image" src="https://github.com/user-attachments/assets/8656246f-6d22-4d5d-97f3-6db328089e99" />
+<img width="1205" height="587" alt="image" src="https://github.com/user-attachments/assets/1270a014-989c-44fd-990c-726086a02e65" />
 
 
 ---
